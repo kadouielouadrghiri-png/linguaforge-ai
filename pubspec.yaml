@@ -1,0 +1,16 @@
+name: linguaforge_ai
+description: تطبيق تعلم اللغة الإنجليزية الاحترافية بالذكاء الاصطناعي
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  speech_to_text: ^6.6.0
+  flutter_tts: ^4.0.0
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
